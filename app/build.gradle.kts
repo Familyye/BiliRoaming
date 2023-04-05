@@ -184,3 +184,4 @@ val restartBiliBili = task("restartBiliBili").doLast {
 afterEvaluate {
     tasks.getByPath("installDebug").finalizedBy(restartBiliBili)
 }
+
