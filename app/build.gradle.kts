@@ -35,7 +35,7 @@ apktransform {
 cmaker {
     default {
         targets("biliroaming")
-        abiFilters("armeabi-v7a", "arm64-v8a", "x86")
+        abiFilters("armeabi-v7a", "arm64-v8a")
         arguments += "-DANDROID_STL=none"
         cppFlags += "-Wno-c++2b-extensions"
     }
